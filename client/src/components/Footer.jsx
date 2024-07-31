@@ -20,7 +20,14 @@ export default function FooterCom() {
           <div className='grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6'>
             <div>
               <Footer.Title title='About' />
-              <Footer.LinkGroup col>               
+              <Footer.LinkGroup col>
+                <Footer.Link
+                  href='https://www.100jsprojects.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  100 JS Projects
+                </Footer.Link>
                 <Footer.Link
                   href='/about'
                   target='_blank'
@@ -39,7 +46,8 @@ export default function FooterCom() {
                   rel='noopener noreferrer'
                 >
                   Github
-                </Footer.Link>                
+                </Footer.Link>
+                <Footer.Link href='#'>Discord</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -62,7 +70,7 @@ export default function FooterCom() {
             <Footer.Icon href='#' icon={BsFacebook}/>
             <Footer.Icon href='#' icon={BsInstagram}/>
             <Footer.Icon href='#' icon={BsTwitter}/>
-            <Footer.Icon href='https://github.com/sahandghavidel' icon={BsGithub}/>
+            <Footer.Icon href='https://github.com/rajshekharpro' icon={BsGithub}/>
             <Footer.Icon href='#' icon={BsDribbble}/>
 
           </div>
